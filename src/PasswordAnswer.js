@@ -1,20 +1,9 @@
 import React, { useState } from 'react';
 import { Button, Form, Image } from "react-bootstrap";
-import mindstoneAns from './mind-stone-ans.jpg';
-import timestoneAns from './time-stone-ans.jpg';
-import soulstoneAns from './soul-stone-ans.jpg';
-import spacestoneAns from './space-stone-ans.jpg';
 
 import styles from './PasswordAnswer.module.css';
 
-const STONE_IMG_PAIRS = {
-  mind: mindstoneAns,
-  time: timestoneAns,
-  soul: soulstoneAns,
-  space: spacestoneAns,
-}
-
-const PasswordAnswer = ({ stone, correctAnswer, hint, initShow }) => {
+const PasswordAnswer = ({ imgSrc, correctAnswer, hint, initShow }) => {
   const [answer, setAnswer] = useState('');
   const [showImg, setShowImg] = useState(initShow);
 
@@ -34,7 +23,7 @@ const PasswordAnswer = ({ stone, correctAnswer, hint, initShow }) => {
   return (
     <div className={styles.container}>
       <div className={imageContainerClass}>
-        <Image src={STONE_IMG_PAIRS[stone]} fluid/>
+        <Image src={imgSrc} fluid/>
       </div>
       <Form.Group>
         <Form.Control type="text" placeholder={placeHolder} onChange={e => setAnswer(e.target.value)} value={answer}/>

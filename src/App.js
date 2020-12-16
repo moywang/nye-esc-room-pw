@@ -3,31 +3,28 @@ import {Switch, Route, HashRouter} from "react-router-dom";
 import styles from './App.module.css';
 import PasswordAnswer from './PasswordAnswer';
 
-import guide from './EscapeRoomGuide.pdf';
-import EmbeddedPdf from "./EmbeddedPdf";
+import NiceTry from './Nice Try.jpg';
+import Answer from './Answer.jpg';
 
 function App() {
   return (
     <div className={styles.app}>
       <HashRouter>
         <Switch>
-          <Route path="/intro">
-            <EmbeddedPdf src={guide} />
+          <Route path="/answer-1">
+            <PasswordAnswer imgSrc={NiceTry} correctAnswer="600" hint="It's a 3 digit number."/>
           </Route>
-          <Route path="/soul">
-            <PasswordAnswer stone="soul" correctAnswer="maze" hint="where are you?" initShow/>
+          <Route path="/answer-2">
+            <PasswordAnswer imgSrc={NiceTry} correctAnswer="877" hint="It's a 3 digit number."/>
           </Route>
-          <Route path="/space">
-            <PasswordAnswer stone="space" correctAnswer="maze" hint="where are you?" initShow={false}/>
-          </Route>
-          <Route path="/time">
-            <PasswordAnswer stone="time" correctAnswer="28" hint="it's a number" initShow={false}/>
-          </Route>
-          <Route path="/mind">
-            <PasswordAnswer stone="mind" correctAnswer="4756" hint="it's a 4 digit number" initShow={false}/>
+          <Route path="/answer-3">
+            <PasswordAnswer imgSrc={Answer} correctAnswer="936" hint="It's a 3 digit number." />
           </Route>
           <Route path="/">
             <h1>Welcome to Gather Town Escape Room!</h1>
+
+            <p>Here's a chicken for you 🐓</p>
+
             <p>But sorry you are in the wrong place.</p>
           </Route>
         </Switch>

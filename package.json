@@ -1,5 +1,5 @@
 {
-  "name": "escape-room-password",
+  "name": "nye-escape-room-password",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -41,5 +41,5 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://moywang.github.io/escape-room-password/"
+  "homepage": "https://moywang.github.io/nye-escape-room-password/"
 }
