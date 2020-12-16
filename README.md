@@ -1,2 +1,2 @@
 ## Deployed At
-moywang.github.io/escape-room-password
+moywang.github.io/nye-esc-room-pw
