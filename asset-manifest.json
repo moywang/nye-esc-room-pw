@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/nye-esc-room-pw/static/css/main.b4b2e9c0.chunk.css",
-    "main.js": "/nye-esc-room-pw/static/js/main.c2d3e488.chunk.js",
-    "main.js.map": "/nye-esc-room-pw/static/js/main.c2d3e488.chunk.js.map",
+    "main.js": "/nye-esc-room-pw/static/js/main.7d1855de.chunk.js",
+    "main.js.map": "/nye-esc-room-pw/static/js/main.7d1855de.chunk.js.map",
     "runtime-main.js": "/nye-esc-room-pw/static/js/runtime-main.1d9d80f3.js",
     "runtime-main.js.map": "/nye-esc-room-pw/static/js/runtime-main.1d9d80f3.js.map",
     "static/css/2.20aa2d7b.chunk.css": "/nye-esc-room-pw/static/css/2.20aa2d7b.chunk.css",
@@ -14,14 +14,15 @@
     "static/css/2.20aa2d7b.chunk.css.map": "/nye-esc-room-pw/static/css/2.20aa2d7b.chunk.css.map",
     "static/css/main.b4b2e9c0.chunk.css.map": "/nye-esc-room-pw/static/css/main.b4b2e9c0.chunk.css.map",
     "static/js/2.d306dab5.chunk.js.LICENSE.txt": "/nye-esc-room-pw/static/js/2.d306dab5.chunk.js.LICENSE.txt",
-    "static/media/Answer.bf86cd83.jpg": "/nye-esc-room-pw/static/media/Answer.bf86cd83.jpg",
-    "static/media/Nice Try.e043a33a.jpg": "/nye-esc-room-pw/static/media/Nice Try.e043a33a.jpg"
+    "static/media/Answer.4e48ee9e.jpg": "/nye-esc-room-pw/static/media/Answer.4e48ee9e.jpg",
+    "static/media/Nice Try.e043a33a.jpg": "/nye-esc-room-pw/static/media/Nice Try.e043a33a.jpg",
+    "static/media/Puzzle 2 Solution.aa1d1872.jpg": "/nye-esc-room-pw/static/media/Puzzle 2 Solution.aa1d1872.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.1d9d80f3.js",
     "static/css/2.20aa2d7b.chunk.css",
     "static/js/2.d306dab5.chunk.js",
     "static/css/main.b4b2e9c0.chunk.css",
-    "static/js/main.c2d3e488.chunk.js"
+    "static/js/main.7d1855de.chunk.js"
   ]
 }
